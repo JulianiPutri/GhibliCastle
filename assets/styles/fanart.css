@@ -1,0 +1,68 @@
+.fanart{
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    background-color: var(--creme-brulee);
+}
+.fanart-container{
+    text-align: center;
+    max-width: 1440px;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.fanart-container button{
+    border : none;
+    padding : 10px 50px;
+    border-radius: 10px;
+    background-color: var(--dark-crusta);
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.fanart-container button:hover{
+    background-color: var(--crusta);
+    color: var(--white);
+    transform: translateY(5px);
+}
+.fanart-container h1{
+    color: var(--nero);
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.fanart-list{
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.fanart-items{
+    -ms-flex: 32%;
+    flex: 32%;
+    max-width: 32%;
+    padding: 0 4px;
+}
+.fanart-items img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .fanart-items {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .fanart-items {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import "./header.css";
+@import "./rule.css";
+@import "./about.css";
+@import "./movies.css";
+@import "./char.css";
+@import "./ost.css";
+@import "./fanart.css";
+@import "./footer.css";

@@ -1,0 +1,15 @@
+:root{
+    --deco : hsl(77, 32%, 72%);
+    --creme-brulee : hsl(44, 41%, 90%);
+    --light-creme-brulee : hsl(44, 41%, 95%);
+    --crusta : hsl(14, 57%, 67%);
+    --dark-crusta : hsl(14, 66%, 55%);
+    --nero :hsl(0, 0%, 7%);
+    --light-nero :hsl(0, 0%, 30%);
+    --white : hsl(360, 100%, 100%);
+}
+
+html{
+    font-family: poppins;
+}
+

@@ -1,0 +1,107 @@
+.movies{
+    background-color: var(--light-creme-brulee);
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.container-movies-card{
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.container-movies-card h1{
+    color: var(--nero);
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.movies-card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.movies-card-items{
+    position: relative;
+    flex: 24%;
+    max-width: 24%;
+    -ms-flex: 24%;
+}
+
+.movies-card-items img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 10px;
+    opacity: 1;
+    height: 350px;
+}
+
+.info{
+    top: 0;
+    padding-top: 175px;
+    padding-bottom: 150px;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    text-decoration: none;
+}
+.info:hover{
+    transform: translateY(15px);
+    opacity: 1;
+}
+.info button{
+    cursor: pointer;
+    border : none;
+    padding : 5px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px 5pxs rgba(0, 0, 0, 0.2);;
+}
+.info button:hover{
+    background-color: var(--white);
+    color: var(--nero);
+}
+.btn-trailer{
+    background-color: var(--crusta);
+    color: var(--white);
+}
+.btn-synopsis{
+    background-color: var(--deco);
+    color: var(--white);
+}
+
+.show-movie{
+    border : none;
+    padding : 10px 50px;
+    border-radius: 10px;
+    background-color: var(--dark-crusta);
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.show-movie:hover{
+    background-color: var(--crusta);
+    color: var(--white);
+    transform: translateY(5px);
+}
+@media screen and (max-width: 600px) {
+    .movies-card-items {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
+    .info{
+        opacity: 1;
+    }
+}
